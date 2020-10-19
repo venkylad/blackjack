@@ -1,0 +1,80 @@
+body{
+    background-color: wheat;
+}
+
+#contain {
+    margin: 0 auto;
+    margin-top: 30px;
+    padding-top: 30px;
+    width: 75%;
+    text-align: center;
+    border: 1px solid black;
+    background-color: darkgreen;
+    padding: 20px;
+    border-radius: 20px;
+  }
+
+.text{
+    font-family: 'Lobster', cursive;
+}
+
+#header{
+    margin-top: 50px;
+    margin-bottom: 0px;
+    text-align: center;
+    color: blueviolet;
+}
+
+.row-1-blackjack,
+.row-2-blackjack
+{
+display: flex;
+padding: 10px;
+border: 1px solid black;
+flex-wrap: wrap;
+flex-direction: row;
+justify-content: space-around;
+margin: 10px;
+background: url(https://st2.depositphotos.com/1771622/10172/i/450/depositphotos_101724018-stock-photo-blackjack-card-game.jpg) center;
+color: #ffffff;
+}
+
+.row-1-blackjack div {
+border: 1px solid white;
+padding: 10px;
+flex: 1;
+text-align: center;
+height: 350px;
+}
+
+.row-1-blackjack img {
+width: 25%;
+padding: 10px;
+}
+
+
+.row-4-blackjack {
+border: 3px solid black;
+border-radius: 8px;
+margin: 0 auto;
+padding: 20px;
+width: 75%;
+background-color: grey
+}
+
+.row-2-blackjack{
+border-radius: 8px;
+margin: 0 auto;
+padding: 20px;
+width: 45%;
+}
+
+.row-3-blackjack {
+border: 1px solid white;
+margin: 0 auto;
+width: 35%;
+}
+
+.btn-lg{
+    margin: 10px;
+}
